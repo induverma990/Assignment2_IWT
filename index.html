@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <title>Web Design Mastery | Responsive Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">INDU VERMA</a></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>INDU<br />a</span> Web Developer
+        </h1>
+        <p class="description">
+          Welcome to my portfolio! I'm Indu, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. I've worked on a variety of
+          web projects.<br>
+          I am a highly motivated and adaptable professional dedicated to personal and professional growth.
+          With a firm commitment to continual development, I seek out challenging opportunities to push my boundaries
+          and expand my skill set.
+          <br>
+          My passion for learning and problem-solving, combined with a positive attitude, drives me to excel in any
+          environment. I thrive in dynamic settings where I can contribute my expertise to collaborative teams and stay
+          at the forefront of emerging technologies.
+        </p>
+        <div class="action__btns">
+          <button class="hire__me">Hire Me</button>
+          <button class="portfolio_1">Portfolio</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="Screenshot 2024-03-29 120527.png" alt="profile" />
+      </div>
+    </div>
+    <a name="about">
+      <div class="about">
+    </a>
+    About
+    </div>
+    <div class="education">
+      <h4>Educational Background</h4>
+      <div class="text">
+        <ul>
+          <li><b>BANASTHALI VIDYAPITH</b> <span>Jaipur,Rajasthan</span><br>
+            INFORMATION TECHNOLOGY(B.TECH) <span>July,2021-May,2025</span><br>
+            CGPA: 9.53/10 <span>Upto IV SEM</span><br><br></li>
+          <li><b>BRILLIANT PUBLIC SR. SEC. SCHOOL</b> <span>Aligarh,U.P</span><br>
+            Class 12th: 96.2% <span>April,2020</span><br>
+            Class 10th: 92.6% <span>March,2018</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="technical_skills">
+      <h4>Technical Skills</h4>
+      <div class="text">
+        <ul>
+          <li><b>LANGUAGES:</b> C, C++</li>
+          <li><b>ADITTIONAL:</b> Data Structures</li>
+          <li><b>DEVELOPMENT:</b> HTML, CSS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="achievement">
+      <h4>Achievements</h4>
+      <div class="text">
+        <ul>
+          <li>Solved 270+ questions on <a href="https://www.codechef.com/users/indu_90"><u>CodeChef</u></a></li>
+          <li>4 star Problem Solving at <a href=""><u>HackerRank</u></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="portfolio">
+      <a name="portfolio">Portfolio</a>
+    </div>
+    <div class="projects">
+      <h4>Projects</h4>
+      <div class="text">
+        <ul>
+          <li>
+            <b> GUESS My NUMBER GAME</b> <span><a href="https://github.com/induverma990/Project_1/blob/main/GuessNo.c">Guess-My-Number</a></span> <br>
+            Developed a Fun Game of Guessing a Number using C
+
+          </li>
+          <br>
+          <li>
+            <b>SNAKE, WATER, GUN GAME </b><span><a href="https://github.com/induverma990/Project_2/blob/main/SnakeWaterGun.c">Snake-Water-Gun</a></span><br>
+            Developed a Fun Game - Snake,Water,Gun using C
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="lab_work">
+      <h4>Lab Work</h4>
+      <div class="text">
+        <ul>
+          <li><a href="https://github.com/induverma990/Lab_Exercise">Exercises</a></li><br>
+          <li><a href="https://induverma990.github.io/Assignment1_IWT/home.html">Assignment 1</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact"><a name="contact">Contact</a></div>
+    <div id="qry">
+      Have a question or suggestion? I'd love to hear from you! Fill out the form below and let's start a conversation.
+      Your feedback is invaluable to us!
+    </div>
+    <div class="queries" id="queries1">
+      <form action="#" method="post" onsubmit="return validateForm()">
+        <label for="fname" class="required">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <span id="fnameError" class="error"></span>
+
+        <label for="lname" class="required">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <span id="lnameError" class="error"></span>
+
+        <label for="email" class="required">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span>
+
+        <label for="message" class="required">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <span id="messageError" class="error"></span>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+  </section>
+  <div class="footer">
+    <a href="#"><span>Facebook</span></a>
+    <a href="#"><span>Twitter</span></a>
+    <a href="#"><span>Github</span></a>
+    </div>
+</body>
+
+</html>
